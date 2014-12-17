@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding: 0;
+	margin: 0;
+}
+
+#logo{
+	float:left;
+	}
+#menu{
+	font-family:"Titillium Web";
+	color: #FFFFFF;
+	float:right;
+}
+
+#header-1{
+	background: -webkit-linear-gradient(left,#333333 70%, #333333 100%); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right,#333333 70%, #333333 100%); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right,#333333 70%, #333333 100%); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right,#333333 70%, #333333 100%); /* Standard syntax (must be last) */
+	
+	padding: 30px;
+	margin: 0px;
+	height:100px;
+	vertical-align:baseline;
+	border-bottom:1px solid #989898;
+}
+
+#left-header{
+	color:#FFF;
+	padding-left:18px;
+	padding-top:10px;
+	float:left;
+	font-family:"Titillium Web";
+	font-weight:100;
+}
+
+.menuList{
+	position:relative;
+	margin-top: 80px;
+	padding-left: 15px;
+	padding-right: 45px;
+	display: inline-block;
+	white-space:nowrap;
+}
+
+.logo-part1{
+	font-size:38pt;
+	margin:0px;
+	padding:0px;
+	display:block;
+}
+
+.logo-part2{
+	font-size:16.7pt;
+	margin-top:-16px;
+	padding: 0px;
+	display:block;
+}
