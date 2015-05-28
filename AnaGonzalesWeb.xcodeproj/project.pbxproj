@@ -1,0 +1,90 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		9FB1F27E1AAA36F80054154C /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		9FB1F27F1AAA3B870054154C /* style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+		9FB1F2801AAB49F30054154C /* programmer.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = programmer.html; sourceTree = "<group>"; };
+		9FB1F2811AAB5F000054154C /* contactMe.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = contactMe.html; sourceTree = "<group>"; };
+		9FC28D831B0FAD71002979EF /* painting.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = painting.html; sourceTree = "<group>"; };
+		9FC28D841B0FB11E002979EF /* drawing.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = drawing.html; sourceTree = "<group>"; };
+		9FC28D851B1398EE002979EF /* rationale.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = rationale.html; sourceTree = "<group>"; };
+		9FC28D871B139C1D002979EF /* studentArt.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = studentArt.html; sourceTree = "<group>"; };
+		9FE07D181AB219F200462F60 /* artist.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = artist.html; sourceTree = "<group>"; };
+		9FE07D191AB219FF00462F60 /* teacher.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = teacher.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		9FB1F2771AAA36C70054154C = {
+			isa = PBXGroup;
+			children = (
+				9FC28D871B139C1D002979EF /* studentArt.html */,
+				9FC28D851B1398EE002979EF /* rationale.html */,
+				9FC28D841B0FB11E002979EF /* drawing.html */,
+				9FC28D831B0FAD71002979EF /* painting.html */,
+				9FE07D191AB219FF00462F60 /* teacher.html */,
+				9FE07D181AB219F200462F60 /* artist.html */,
+				9FB1F2811AAB5F000054154C /* contactMe.html */,
+				9FB1F2801AAB49F30054154C /* programmer.html */,
+				9FB1F27F1AAA3B870054154C /* style.css */,
+				9FB1F27E1AAA36F80054154C /* index.html */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		9FB1F2781AAA36C70054154C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+			};
+			buildConfigurationList = 9FB1F27B1AAA36C70054154C /* Build configuration list for PBXProject "AnaGonzalesWeb" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9FB1F2771AAA36C70054154C;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		9FB1F27C1AAA36C70054154C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		9FB1F27D1AAA36C70054154C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FB1F27B1AAA36C70054154C /* Build configuration list for PBXProject "AnaGonzalesWeb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FB1F27C1AAA36C70054154C /* Debug */,
+				9FB1F27D1AAA36C70054154C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FB1F2781AAA36C70054154C /* Project object */;
+}

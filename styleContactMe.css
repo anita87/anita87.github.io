@@ -1,0 +1,36 @@
+body{
+    margin:0px;
+    border:0px;
+}
+
+#title{
+    font-family: Economica;
+    font-size: 24px;
+    color: #2299ad;
+    padding-left: 34px;
+    padding-top: 43px;
+    
+}
+
+#contactInfo{
+    font-family: Avenir Next Condensed;
+    font-size: 12 pts;
+    padding-left: 34px;
+    padding-top: 25px;
+
+}
+
+#contactInfo ul
+{
+    list-style-type: none;
+    text-align: left;
+}
+
+#contactInfo ul li {
+    line-height: 200%;
+/*    display: inline;*/
+}
+
+img {
+    padding-right: 10px;
+}

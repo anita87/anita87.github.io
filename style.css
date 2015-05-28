@@ -1,60 +1,222 @@
-@charset "utf-8";
-/* CSS Document */
-*{
-	padding: 0;
-	margin: 0;
+#header {
+    background-color:#3a3a3a;
+    text-align:left;
+    padding:10px 0px 10px 0px;
+    position:relative;
+    height:60px;
+    width: 100%;
 }
 
-#logo{
-	float:left;
-	}
-#menu{
-	font-family:"Titillium Web";
-	color: #FFFFFF;
-	float:right;
+body{
+    margin:0px;
+    border:0px;
 }
 
-#header-1{
-	background: -webkit-linear-gradient(left,#333333 70%, #333333 100%); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(right,#333333 70%, #333333 100%); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(right,#333333 70%, #333333 100%); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(to right,#333333 70%, #333333 100%); /* Standard syntax (must be last) */
-	
-	padding: 30px;
-	margin: 0px;
-	height:100px;
-	vertical-align:baseline;
-	border-bottom:1px solid #989898;
+#logo {
+    float: left;
+    width: 33%;
 }
 
-#left-header{
-	color:#FFF;
-	padding-left:18px;
-	padding-top:10px;
-	float:left;
-	font-family:"Titillium Web";
-	font-weight:100;
+#mainMenu {
+    float: left;
+    width: 67%;
+    
+    color:white;
+    text-align:right;
+    list-style-type: none;
+    
+    padding-top: 45px;
 }
 
-.menuList{
-	position:relative;
-	margin-top: 80px;
-	padding-left: 15px;
-	padding-right: 45px;
-	display: inline-block;
-	white-space:nowrap;
+#mainMenu ul
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: right;
 }
 
-.logo-part1{
-	font-size:38pt;
-	margin:0px;
-	padding:0px;
-	display:block;
+#mainMenu ul li {
+    display: inline;
+    font-family:Avenir Next Condensed;
 }
 
-.logo-part2{
-	font-size:16.7pt;
-	margin-top:-16px;
-	padding: 0px;
-	display:block;
+#mainMenu ul li a {
+    text-decoration: none;
+    padding: 20px;
+    color: #fff;
+}
+
+#mainMenu ul li a:hover
+{
+    color: #71be47;
+}
+
+#content{
+    width: 100%;
+    height: auto;
+}
+
+/************** Content for Home **************/
+#title{
+    font-family: Economica;
+    font-size: 30px;
+    color: #2299ad;
+    padding-bottom: 15px;
+}
+
+#sliders img{
+    position:relative;
+    width: 100%;
+}
+
+#contentHome{
+    position:relative;
+    width: 100%;
+}
+
+#aboutMe{
+    font-family: Avenir Next;
+    font-size: 14px;
+    color: #3a3a3a;
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-top: 43px;
+    line-height: 27px;
+    
+    float: left;
+    width: 67%;
+}
+
+#links{
+    float: right;
+    width: 13%;
+    font-family: Economica;
+    padding-top: 43px;
+    padding-left: 34px;
+    padding-right: 34px;
+    
+}
+
+#titleLinks{
+    font-size: 18px;
+    color: #2299ad;
+    padding-bottom: 6px;
+}
+
+#linkList{
+    font-size: 15px;
+    color: #3a3a3a;
+}
+
+#linkList ul{
+    margin:0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    list-style-type: none;
+}
+#linkList ul li{
+    line-height: 200%;
+}
+#linkList ul li a {
+    text-decoration: none;
+    color: #3a3a3a;
+}
+
+#linkList ul li a:hover
+{
+    color: #71be47;
+}
+
+
+
+/************** teacher.html **************/
+
+
+
+/************** artist.html **************/
+
+#contentArtist{
+    position:relative;
+    width: 100%;
+}
+
+#smallPics{
+    font-family: Economica;
+    font-size: 24px;
+    color: #2299ad;
+}
+
+
+#smallPics img:hover
+{
+    border-color: #71be47;
+}
+
+#smallPicsYear img{
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+
+}
+
+#smallPicsYear img:hover{
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+
+.thumbnail {
+    float: top;
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+    padding-right: 0px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #c9c9c9;
+}
+
+/************** programmer.html **************/
+
+#comingSoon{
+    font-family: Avenir Next Condensed;
+    color:#3a3a3a;
+    font-size: 18px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+
+
+
+/************** contactMe.html **************/
+
+#contactTitle{
+    font-family: Economica;
+    font-size: 30px;
+    color: #2299ad;
+    padding-left: 34px;
+    padding-top: 43px;
+    
+}
+
+#contactInfo{
+    font-family: Avenir Next Condensed;
+    font-size: 12 pts;
+    padding-left: 34px;
+    padding-top: 7px;
+    
+}
+
+#contactInfo ul
+{
+    list-style-type: none;
+    text-align: left;
+}
+
+#contactInfo ul li {
+    line-height: 200%;
+}
+
+img {
+    padding-right: 10px;
 }
